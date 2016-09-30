@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>评论</string>
+		<key>content</key>
+		<string>家长2回复家长1</string>
+		<key>date</key>
+		<string>2016-09-29T02:38:51Z</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>请假</string>
+		<key>content</key>
+		<string>请假已经批准</string>
+		<key>date</key>
+		<string>2016-09-29T05:57:10Z</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>学校通知</string>
+		<key>content</key>
+		<string>明天放假一天。</string>
+		<key>date</key>
+		<string>2016-09-29T02:38:51Z</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>班主任通知</string>
+		<key>content</key>
+		<string>下午班长来我办公室。</string>
+		<key>date</key>
+		<string>2016-09-29T02:38:51Z</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>考勤通知</string>
+		<key>content</key>
+		<string>小明迟到4天。</string>
+		<key>date</key>
+		<string>2016-09-29T02:38:51Z</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>软件公告</string>
+		<key>content</key>
+		<string>本月暂无更新，请留意。</string>
+		<key>date</key>
+		<string>2016-09-29T02:38:51Z</string>
+	</dict>
+</array>
+</plist>

@@ -7,25 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3127236C03136C4C40E9F25D /* libPods-YXQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F237707833C67EB96D3D26E /* libPods-YXQ.a */; };
 		BB15DE0E1D9371A20077BE0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE0D1D9371A20077BE0E /* main.m */; };
 		BB15DE111D9371A20077BE0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE101D9371A20077BE0E /* AppDelegate.m */; };
-		BB15DE141D9371A20077BE0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE131D9371A20077BE0E /* ViewController.m */; };
-		BB15DE171D9371A20077BE0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB15DE151D9371A20077BE0E /* Main.storyboard */; };
 		BB15DE191D9371A20077BE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB15DE181D9371A20077BE0E /* Assets.xcassets */; };
 		BB15DE1C1D9371A20077BE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB15DE1A1D9371A20077BE0E /* LaunchScreen.storyboard */; };
+		BB15DE441D9385B90077BE0E /* YXQBaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE431D9385B90077BE0E /* YXQBaseTabbarController.m */; };
+		BB15DE471D9385E40077BE0E /* YXQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE461D9385E40077BE0E /* YXQBaseNavigationController.m */; };
+		BB15DE4A1D9386100077BE0E /* YXQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE491D9386100077BE0E /* YXQBaseViewController.m */; };
+		BB15DE4D1D9386730077BE0E /* YXQHomeMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE4C1D9386730077BE0E /* YXQHomeMainController.m */; };
+		BB15DE501D9386FB0077BE0E /* YXQPcenterMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE4F1D9386FB0077BE0E /* YXQPcenterMainController.m */; };
+		BB15DE531D9387260077BE0E /* YXQMyChildrenController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE521D9387260077BE0E /* YXQMyChildrenController.m */; };
+		BB15DE5C1D93B3D70077BE0E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB15DE5B1D93B3D70077BE0E /* Default-568h@2x.png */; };
+		BB15DE5F1D93B8AB0077BE0E /* YXQHomeTeacherInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE5E1D93B8AB0077BE0E /* YXQHomeTeacherInfoView.m */; };
+		BB15DE621D93B8D30077BE0E /* YXQHomeCheckView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE611D93B8D30077BE0E /* YXQHomeCheckView.m */; };
+		BB15DE651D93B9000077BE0E /* YXQHomeTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE641D93B9000077BE0E /* YXQHomeTestView.m */; };
+		BB15DE681D93B9340077BE0E /* YXQHomeMoralView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE671D93B9340077BE0E /* YXQHomeMoralView.m */; };
+		BB15DE6B1D93B9620077BE0E /* YXQHomeClassNotyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE6A1D93B9620077BE0E /* YXQHomeClassNotyModel.m */; };
+		BB15DE6E1D93B97A0077BE0E /* YXQHomeClassNotyView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE6D1D93B97A0077BE0E /* YXQHomeClassNotyView.m */; };
+		BB15DE711D93B9D60077BE0E /* YXQHomeCheckingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE701D93B9D60077BE0E /* YXQHomeCheckingModel.m */; };
+		BB15DE741D93B9E40077BE0E /* YXQHomeTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE731D93B9E40077BE0E /* YXQHomeTestModel.m */; };
+		BB15DE771D93BA180077BE0E /* YXQHomeTeacherInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE761D93BA180077BE0E /* YXQHomeTeacherInfoModel.m */; };
+		BB15DE7A1D93CABF0077BE0E /* WZZEndlessLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DE791D93CABF0077BE0E /* WZZEndlessLoopScrollView.m */; };
+		BB15DEF11D94CEE10077BE0E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DEF01D94CEE10077BE0E /* UIView+Frame.m */; };
+		BB15DEF41D9516D40077BE0E /* YXQShowIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DEF31D9516D40077BE0E /* YXQShowIconViewController.m */; };
+		BB15DEF71D951A320077BE0E /* YXQCustomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DEF61D951A320077BE0E /* YXQCustomAnimationController.m */; };
+		BB15DFC61D9CB01B0077BE0E /* YXQMessageCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DFC51D9CB01B0077BE0E /* YXQMessageCenterCell.m */; };
+		BB15DFC91D9CBCD00077BE0E /* YXQMessageCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DFC81D9CBCD00077BE0E /* YXQMessageCenterController.m */; };
+		BB15DFCB1D9CF4F70077BE0E /* message.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB15DFCA1D9CF4F70077BE0E /* message.plist */; };
+		BB15DFCE1D9E163E0077BE0E /* customCheckShow.m in Sources */ = {isa = PBXBuildFile; fileRef = BB15DFCD1D9E163E0077BE0E /* customCheckShow.m */; };
+		BB6557031D9D4491007B344E /* AutoButtonByDK.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6557021D9D4491007B344E /* AutoButtonByDK.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36FDA185D8EE21A0979B5ADC /* Pods-YXQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXQ.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXQ/Pods-YXQ.release.xcconfig"; sourceTree = "<group>"; };
+		4F237707833C67EB96D3D26E /* libPods-YXQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXQ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB15DE091D9371A20077BE0E /* YXQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB15DE0D1D9371A20077BE0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB15DE0F1D9371A20077BE0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BB15DE101D9371A20077BE0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BB15DE121D9371A20077BE0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BB15DE131D9371A20077BE0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BB15DE161D9371A20077BE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB15DE0F1D9371A20077BE0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		BB15DE101D9371A20077BE0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		BB15DE181D9371A20077BE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB15DE1B1D9371A20077BE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB15DE1D1D9371A20077BE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB15DE421D9385B90077BE0E /* YXQBaseTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQBaseTabbarController.h; sourceTree = "<group>"; };
+		BB15DE431D9385B90077BE0E /* YXQBaseTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQBaseTabbarController.m; sourceTree = "<group>"; };
+		BB15DE451D9385E40077BE0E /* YXQBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQBaseNavigationController.h; sourceTree = "<group>"; };
+		BB15DE461D9385E40077BE0E /* YXQBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQBaseNavigationController.m; sourceTree = "<group>"; };
+		BB15DE481D9386100077BE0E /* YXQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQBaseViewController.h; sourceTree = "<group>"; };
+		BB15DE491D9386100077BE0E /* YXQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQBaseViewController.m; sourceTree = "<group>"; };
+		BB15DE4B1D9386730077BE0E /* YXQHomeMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeMainController.h; sourceTree = "<group>"; };
+		BB15DE4C1D9386730077BE0E /* YXQHomeMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeMainController.m; sourceTree = "<group>"; };
+		BB15DE4E1D9386FB0077BE0E /* YXQPcenterMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQPcenterMainController.h; sourceTree = "<group>"; };
+		BB15DE4F1D9386FB0077BE0E /* YXQPcenterMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQPcenterMainController.m; sourceTree = "<group>"; };
+		BB15DE511D9387260077BE0E /* YXQMyChildrenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQMyChildrenController.h; sourceTree = "<group>"; };
+		BB15DE521D9387260077BE0E /* YXQMyChildrenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQMyChildrenController.m; sourceTree = "<group>"; };
+		BB15DE551D9387FB0077BE0E /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		BB15DE561D93882E0077BE0E /* YXQPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQPrefixHeader.pch; sourceTree = "<group>"; };
+		BB15DE5B1D93B3D70077BE0E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BB15DE5D1D93B8AB0077BE0E /* YXQHomeTeacherInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeTeacherInfoView.h; sourceTree = "<group>"; };
+		BB15DE5E1D93B8AB0077BE0E /* YXQHomeTeacherInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeTeacherInfoView.m; sourceTree = "<group>"; };
+		BB15DE601D93B8D30077BE0E /* YXQHomeCheckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeCheckView.h; sourceTree = "<group>"; };
+		BB15DE611D93B8D30077BE0E /* YXQHomeCheckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeCheckView.m; sourceTree = "<group>"; };
+		BB15DE631D93B9000077BE0E /* YXQHomeTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeTestView.h; sourceTree = "<group>"; };
+		BB15DE641D93B9000077BE0E /* YXQHomeTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeTestView.m; sourceTree = "<group>"; };
+		BB15DE661D93B9340077BE0E /* YXQHomeMoralView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeMoralView.h; sourceTree = "<group>"; };
+		BB15DE671D93B9340077BE0E /* YXQHomeMoralView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeMoralView.m; sourceTree = "<group>"; };
+		BB15DE691D93B9620077BE0E /* YXQHomeClassNotyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeClassNotyModel.h; sourceTree = "<group>"; };
+		BB15DE6A1D93B9620077BE0E /* YXQHomeClassNotyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeClassNotyModel.m; sourceTree = "<group>"; };
+		BB15DE6C1D93B97A0077BE0E /* YXQHomeClassNotyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeClassNotyView.h; sourceTree = "<group>"; };
+		BB15DE6D1D93B97A0077BE0E /* YXQHomeClassNotyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeClassNotyView.m; sourceTree = "<group>"; };
+		BB15DE6F1D93B9D60077BE0E /* YXQHomeCheckingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeCheckingModel.h; sourceTree = "<group>"; };
+		BB15DE701D93B9D60077BE0E /* YXQHomeCheckingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeCheckingModel.m; sourceTree = "<group>"; };
+		BB15DE721D93B9E40077BE0E /* YXQHomeTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeTestModel.h; sourceTree = "<group>"; };
+		BB15DE731D93B9E40077BE0E /* YXQHomeTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeTestModel.m; sourceTree = "<group>"; };
+		BB15DE751D93BA180077BE0E /* YXQHomeTeacherInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQHomeTeacherInfoModel.h; sourceTree = "<group>"; };
+		BB15DE761D93BA180077BE0E /* YXQHomeTeacherInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQHomeTeacherInfoModel.m; sourceTree = "<group>"; };
+		BB15DE781D93CABF0077BE0E /* WZZEndlessLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZEndlessLoopScrollView.h; sourceTree = "<group>"; };
+		BB15DE791D93CABF0077BE0E /* WZZEndlessLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZEndlessLoopScrollView.m; sourceTree = "<group>"; };
+		BB15DEEF1D94CEE10077BE0E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BB15DEF01D94CEE10077BE0E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BB15DEF21D9516D40077BE0E /* YXQShowIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQShowIconViewController.h; sourceTree = "<group>"; };
+		BB15DEF31D9516D40077BE0E /* YXQShowIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQShowIconViewController.m; sourceTree = "<group>"; };
+		BB15DEF51D951A320077BE0E /* YXQCustomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQCustomAnimationController.h; sourceTree = "<group>"; };
+		BB15DEF61D951A320077BE0E /* YXQCustomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQCustomAnimationController.m; sourceTree = "<group>"; };
+		BB15DFC41D9CB01B0077BE0E /* YXQMessageCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQMessageCenterCell.h; sourceTree = "<group>"; };
+		BB15DFC51D9CB01B0077BE0E /* YXQMessageCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQMessageCenterCell.m; sourceTree = "<group>"; };
+		BB15DFC71D9CBCD00077BE0E /* YXQMessageCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXQMessageCenterController.h; sourceTree = "<group>"; };
+		BB15DFC81D9CBCD00077BE0E /* YXQMessageCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXQMessageCenterController.m; sourceTree = "<group>"; };
+		BB15DFCA1D9CF4F70077BE0E /* message.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = message.plist; sourceTree = "<group>"; };
+		BB15DFCC1D9E163E0077BE0E /* customCheckShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCheckShow.h; sourceTree = "<group>"; };
+		BB15DFCD1D9E163E0077BE0E /* customCheckShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCheckShow.m; sourceTree = "<group>"; };
+		BB6557011D9D4491007B344E /* AutoButtonByDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoButtonByDK.h; sourceTree = "<group>"; };
+		BB6557021D9D4491007B344E /* AutoButtonByDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoButtonByDK.m; sourceTree = "<group>"; };
+		C66B2477025012E181E02637 /* Pods-YXQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXQ/Pods-YXQ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +107,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3127236C03136C4C40E9F25D /* libPods-YXQ.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45080252B130552CC019F0D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C66B2477025012E181E02637 /* Pods-YXQ.debug.xcconfig */,
+				36FDA185D8EE21A0979B5ADC /* Pods-YXQ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB15DE001D9371A20077BE0E = {
 			isa = PBXGroup;
 			children = (
+				BB15DE5B1D93B3D70077BE0E /* Default-568h@2x.png */,
+				BB15DE231D9384DB0077BE0E /* Application */,
+				BB15DE241D9384FF0077BE0E /* Base */,
+				BB15DE261D9384FF0077BE0E /* Home */,
+				BB15DE2C1D9384FF0077BE0E /* MessageCenter */,
+				BB15DE321D9384FF0077BE0E /* Mychildren */,
+				BB15DE381D9384FF0077BE0E /* Other */,
+				BB15DE3B1D9384FF0077BE0E /* PersonalCenter */,
+				BB15DE411D9384FF0077BE0E /* Resource */,
 				BB15DE0B1D9371A20077BE0E /* YXQ */,
 				BB15DE0A1D9371A20077BE0E /* Products */,
+				45080252B130552CC019F0D3 /* Pods */,
+				FC53F95DC2E2333637B21073 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +153,6 @@
 		BB15DE0B1D9371A20077BE0E /* YXQ */ = {
 			isa = PBXGroup;
 			children = (
-				BB15DE0F1D9371A20077BE0E /* AppDelegate.h */,
-				BB15DE101D9371A20077BE0E /* AppDelegate.m */,
-				BB15DE121D9371A20077BE0E /* ViewController.h */,
-				BB15DE131D9371A20077BE0E /* ViewController.m */,
-				BB15DE151D9371A20077BE0E /* Main.storyboard */,
-				BB15DE181D9371A20077BE0E /* Assets.xcassets */,
-				BB15DE1A1D9371A20077BE0E /* LaunchScreen.storyboard */,
-				BB15DE1D1D9371A20077BE0E /* Info.plist */,
 				BB15DE0C1D9371A20077BE0E /* Supporting Files */,
 			);
 			path = YXQ;
@@ -74,9 +161,327 @@
 		BB15DE0C1D9371A20077BE0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BB15DE1D1D9371A20077BE0E /* Info.plist */,
+				BB15DE1A1D9371A20077BE0E /* LaunchScreen.storyboard */,
+				BB15DE181D9371A20077BE0E /* Assets.xcassets */,
 				BB15DE0D1D9371A20077BE0E /* main.m */,
+				BB15DE561D93882E0077BE0E /* YXQPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB15DE231D9384DB0077BE0E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE0F1D9371A20077BE0E /* AppDelegate.h */,
+				BB15DE101D9371A20077BE0E /* AppDelegate.m */,
+			);
+			name = Application;
+			path = YXQ/Application;
+			sourceTree = "<group>";
+		};
+		BB15DE241D9384FF0077BE0E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE251D9384FF0077BE0E /* Controller */,
+			);
+			name = Base;
+			path = YXQ/Base;
+			sourceTree = "<group>";
+		};
+		BB15DE251D9384FF0077BE0E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE421D9385B90077BE0E /* YXQBaseTabbarController.h */,
+				BB15DE431D9385B90077BE0E /* YXQBaseTabbarController.m */,
+				BB15DE451D9385E40077BE0E /* YXQBaseNavigationController.h */,
+				BB15DE461D9385E40077BE0E /* YXQBaseNavigationController.m */,
+				BB15DE481D9386100077BE0E /* YXQBaseViewController.h */,
+				BB15DE491D9386100077BE0E /* YXQBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB15DE261D9384FF0077BE0E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE271D9384FF0077BE0E /* Main */,
+			);
+			name = Home;
+			path = YXQ/Home;
+			sourceTree = "<group>";
+		};
+		BB15DE271D9384FF0077BE0E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE281D9384FF0077BE0E /* Cotroller */,
+				BB15DE291D9384FF0077BE0E /* Model */,
+				BB15DE2A1D9384FF0077BE0E /* Request */,
+				BB15DE2B1D9384FF0077BE0E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BB15DE281D9384FF0077BE0E /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE4B1D9386730077BE0E /* YXQHomeMainController.h */,
+				BB15DE4C1D9386730077BE0E /* YXQHomeMainController.m */,
+				BB15DEF21D9516D40077BE0E /* YXQShowIconViewController.h */,
+				BB15DEF31D9516D40077BE0E /* YXQShowIconViewController.m */,
+				BB15DEF51D951A320077BE0E /* YXQCustomAnimationController.h */,
+				BB15DEF61D951A320077BE0E /* YXQCustomAnimationController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		BB15DE291D9384FF0077BE0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE691D93B9620077BE0E /* YXQHomeClassNotyModel.h */,
+				BB15DE6A1D93B9620077BE0E /* YXQHomeClassNotyModel.m */,
+				BB15DE751D93BA180077BE0E /* YXQHomeTeacherInfoModel.h */,
+				BB15DE761D93BA180077BE0E /* YXQHomeTeacherInfoModel.m */,
+				BB15DE6F1D93B9D60077BE0E /* YXQHomeCheckingModel.h */,
+				BB15DE701D93B9D60077BE0E /* YXQHomeCheckingModel.m */,
+				BB15DE721D93B9E40077BE0E /* YXQHomeTestModel.h */,
+				BB15DE731D93B9E40077BE0E /* YXQHomeTestModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB15DE2A1D9384FF0077BE0E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BB15DE2B1D9384FF0077BE0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE6C1D93B97A0077BE0E /* YXQHomeClassNotyView.h */,
+				BB15DE6D1D93B97A0077BE0E /* YXQHomeClassNotyView.m */,
+				BB15DE5D1D93B8AB0077BE0E /* YXQHomeTeacherInfoView.h */,
+				BB15DE5E1D93B8AB0077BE0E /* YXQHomeTeacherInfoView.m */,
+				BB15DE601D93B8D30077BE0E /* YXQHomeCheckView.h */,
+				BB15DE611D93B8D30077BE0E /* YXQHomeCheckView.m */,
+				BB15DE631D93B9000077BE0E /* YXQHomeTestView.h */,
+				BB15DE641D93B9000077BE0E /* YXQHomeTestView.m */,
+				BB15DE661D93B9340077BE0E /* YXQHomeMoralView.h */,
+				BB15DE671D93B9340077BE0E /* YXQHomeMoralView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB15DE2C1D9384FF0077BE0E /* MessageCenter */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE2D1D9384FF0077BE0E /* Main */,
+			);
+			name = MessageCenter;
+			path = YXQ/MessageCenter;
+			sourceTree = "<group>";
+		};
+		BB15DE2D1D9384FF0077BE0E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE2E1D9384FF0077BE0E /* Cotroller */,
+				BB15DE2F1D9384FF0077BE0E /* Model */,
+				BB15DE301D9384FF0077BE0E /* Request */,
+				BB15DE311D9384FF0077BE0E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BB15DE2E1D9384FF0077BE0E /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DFC71D9CBCD00077BE0E /* YXQMessageCenterController.h */,
+				BB15DFC81D9CBCD00077BE0E /* YXQMessageCenterController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		BB15DE2F1D9384FF0077BE0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DFCA1D9CF4F70077BE0E /* message.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB15DE301D9384FF0077BE0E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BB15DE311D9384FF0077BE0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DFC41D9CB01B0077BE0E /* YXQMessageCenterCell.h */,
+				BB15DFC51D9CB01B0077BE0E /* YXQMessageCenterCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB15DE321D9384FF0077BE0E /* Mychildren */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE331D9384FF0077BE0E /* Main */,
+			);
+			name = Mychildren;
+			path = YXQ/Mychildren;
+			sourceTree = "<group>";
+		};
+		BB15DE331D9384FF0077BE0E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE341D9384FF0077BE0E /* Cotroller */,
+				BB15DE351D9384FF0077BE0E /* Model */,
+				BB15DE361D9384FF0077BE0E /* Request */,
+				BB15DE371D9384FF0077BE0E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BB15DE341D9384FF0077BE0E /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE511D9387260077BE0E /* YXQMyChildrenController.h */,
+				BB15DE521D9387260077BE0E /* YXQMyChildrenController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		BB15DE351D9384FF0077BE0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB15DE361D9384FF0077BE0E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BB15DE371D9384FF0077BE0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB15DE381D9384FF0077BE0E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE541D9387F10077BE0E /* Category */,
+				BB15DE391D9384FF0077BE0E /* Custom */,
+				BB15DE3A1D9384FF0077BE0E /* Vendor */,
+			);
+			name = Other;
+			path = YXQ/Other;
+			sourceTree = "<group>";
+		};
+		BB15DE391D9384FF0077BE0E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				BB6557011D9D4491007B344E /* AutoButtonByDK.h */,
+				BB6557021D9D4491007B344E /* AutoButtonByDK.m */,
+				BB15DE551D9387FB0077BE0E /* Macros.h */,
+				BB15DFCC1D9E163E0077BE0E /* customCheckShow.h */,
+				BB15DFCD1D9E163E0077BE0E /* customCheckShow.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		BB15DE3A1D9384FF0077BE0E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE781D93CABF0077BE0E /* WZZEndlessLoopScrollView.h */,
+				BB15DE791D93CABF0077BE0E /* WZZEndlessLoopScrollView.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		BB15DE3B1D9384FF0077BE0E /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE3C1D9384FF0077BE0E /* Main */,
+			);
+			name = PersonalCenter;
+			path = YXQ/PersonalCenter;
+			sourceTree = "<group>";
+		};
+		BB15DE3C1D9384FF0077BE0E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE3D1D9384FF0077BE0E /* Cotroller */,
+				BB15DE3E1D9384FF0077BE0E /* Model */,
+				BB15DE3F1D9384FF0077BE0E /* Request */,
+				BB15DE401D9384FF0077BE0E /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BB15DE3D1D9384FF0077BE0E /* Cotroller */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DE4E1D9386FB0077BE0E /* YXQPcenterMainController.h */,
+				BB15DE4F1D9386FB0077BE0E /* YXQPcenterMainController.m */,
+			);
+			path = Cotroller;
+			sourceTree = "<group>";
+		};
+		BB15DE3E1D9384FF0077BE0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB15DE3F1D9384FF0077BE0E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BB15DE401D9384FF0077BE0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB15DE411D9384FF0077BE0E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			path = YXQ/Resource;
+			sourceTree = "<group>";
+		};
+		BB15DE541D9387F10077BE0E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BB15DEEF1D94CEE10077BE0E /* UIView+Frame.h */,
+				BB15DEF01D94CEE10077BE0E /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FC53F95DC2E2333637B21073 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F237707833C67EB96D3D26E /* libPods-YXQ.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +491,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB15DE201D9371A20077BE0E /* Build configuration list for PBXNativeTarget "YXQ" */;
 			buildPhases = (
+				B9C65CA2B57B0F2DCE4EAF75 /* [CP] Check Pods Manifest.lock */,
 				BB15DE051D9371A20077BE0E /* Sources */,
 				BB15DE061D9371A20077BE0E /* Frameworks */,
 				BB15DE071D9371A20077BE0E /* Resources */,
+				15E183374CD81B32722D5AFF /* [CP] Embed Pods Frameworks */,
+				6F04AD9059471C22B2F3865E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,36 +544,99 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB15DFCB1D9CF4F70077BE0E /* message.plist in Resources */,
 				BB15DE1C1D9371A20077BE0E /* LaunchScreen.storyboard in Resources */,
 				BB15DE191D9371A20077BE0E /* Assets.xcassets in Resources */,
-				BB15DE171D9371A20077BE0E /* Main.storyboard in Resources */,
+				BB15DE5C1D93B3D70077BE0E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E183374CD81B32722D5AFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXQ/Pods-YXQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F04AD9059471C22B2F3865E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXQ/Pods-YXQ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C65CA2B57B0F2DCE4EAF75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB15DE051D9371A20077BE0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB15DE141D9371A20077BE0E /* ViewController.m in Sources */,
+				BB15DE5F1D93B8AB0077BE0E /* YXQHomeTeacherInfoView.m in Sources */,
+				BB15DE501D9386FB0077BE0E /* YXQPcenterMainController.m in Sources */,
+				BB15DFC91D9CBCD00077BE0E /* YXQMessageCenterController.m in Sources */,
+				BB15DE531D9387260077BE0E /* YXQMyChildrenController.m in Sources */,
+				BB15DE4A1D9386100077BE0E /* YXQBaseViewController.m in Sources */,
 				BB15DE111D9371A20077BE0E /* AppDelegate.m in Sources */,
+				BB15DEF71D951A320077BE0E /* YXQCustomAnimationController.m in Sources */,
+				BB15DE4D1D9386730077BE0E /* YXQHomeMainController.m in Sources */,
+				BB15DE6B1D93B9620077BE0E /* YXQHomeClassNotyModel.m in Sources */,
+				BB15DE471D9385E40077BE0E /* YXQBaseNavigationController.m in Sources */,
+				BB6557031D9D4491007B344E /* AutoButtonByDK.m in Sources */,
+				BB15DE7A1D93CABF0077BE0E /* WZZEndlessLoopScrollView.m in Sources */,
+				BB15DE441D9385B90077BE0E /* YXQBaseTabbarController.m in Sources */,
+				BB15DEF11D94CEE10077BE0E /* UIView+Frame.m in Sources */,
+				BB15DE741D93B9E40077BE0E /* YXQHomeTestModel.m in Sources */,
+				BB15DFC61D9CB01B0077BE0E /* YXQMessageCenterCell.m in Sources */,
+				BB15DE6E1D93B97A0077BE0E /* YXQHomeClassNotyView.m in Sources */,
+				BB15DEF41D9516D40077BE0E /* YXQShowIconViewController.m in Sources */,
 				BB15DE0E1D9371A20077BE0E /* main.m in Sources */,
+				BB15DE711D93B9D60077BE0E /* YXQHomeCheckingModel.m in Sources */,
+				BB15DFCE1D9E163E0077BE0E /* customCheckShow.m in Sources */,
+				BB15DE651D93B9000077BE0E /* YXQHomeTestView.m in Sources */,
+				BB15DE681D93B9340077BE0E /* YXQHomeMoralView.m in Sources */,
+				BB15DE771D93BA180077BE0E /* YXQHomeTeacherInfoModel.m in Sources */,
+				BB15DE621D93B8D30077BE0E /* YXQHomeCheckView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BB15DE151D9371A20077BE0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB15DE161D9371A20077BE0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB15DE1A1D9371A20077BE0E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,9 +732,14 @@
 		};
 		BB15DE211D9371A20077BE0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66B2477025012E181E02637 /* Pods-YXQ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YXQ/YXQPrefixHeader.pch;
 				INFOPLIST_FILE = YXQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YY.YXQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +748,14 @@
 		};
 		BB15DE221D9371A20077BE0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FDA185D8EE21A0979B5ADC /* Pods-YXQ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YXQ/YXQPrefixHeader.pch;
 				INFOPLIST_FILE = YXQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YY.YXQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +781,7 @@
 				BB15DE221D9371A20077BE0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

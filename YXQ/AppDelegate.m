@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YXQBaseTabbarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    YXQBaseTabbarController *tabController = [[YXQBaseTabbarController alloc]init];
+    self.window = [[UIWindow alloc]init];
+    self.window.backgroundColor = kWhiteColor;
+    self.window.rootViewController = tabController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
